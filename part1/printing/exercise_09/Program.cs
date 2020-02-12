@@ -6,6 +6,13 @@ namespace exercise_09
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("Hello, how are you?");
+            String message = Console.ReadLine();
+            Console.WriteLine("That's interesting, tell me more");
+            message = Console.ReadLine();
+            Console.WriteLine("Thank you for sharing!");
+            
+             
             // Write your code here:
 
         }

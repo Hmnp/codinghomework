@@ -6,9 +6,17 @@ namespace exercise_47
   {
     public static void Main(string[] args)
     {
+     Console.WriteLine("Where to?");
+      int to_num = Convert.ToInt32(Console.ReadLine());
 
-      // Write your code here:
-      
+      Console.WriteLine("Where from?");
+      int from_num = Convert.ToInt32(Console.ReadLine());
+
+      for (int number = from_num; number <= to_num; number++)
+      {
+        Console.WriteLine(number);
+
+     }
     }
   }
 }
